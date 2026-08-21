@@ -1,0 +1,27 @@
+candidates = ["A", "B", "C"]
+
+votes = [0, 0, 0]
+
+voted_ids = []
+
+voter_id = "V1001"
+
+choice = 0
+
+if voter_id in voted_ids:
+
+print("Duplicate Vote Not Allowed")
+
+else:
+
+votes[choice] = votes[choice] + 1
+
+voted_ids.append(voter_id)
+
+print("Vote Recorded")
+
+print("A:", votes[0])
+
+print("B:", votes[1])
+
+print("C:", votes[2])
